@@ -1,0 +1,227 @@
+body{
+    margin-left: 8px;
+    padding: 0;
+   
+}
+h2{
+    color:midnightblue
+}
+table{
+   border:1.5px solid midnightblue;
+   margin: 9px;
+   border-collapse: collapse;
+   
+}
+th,td{
+    padding: 7px;
+    border:1.5px solid midnightblue;
+    width: 40px;
+    font-family:monospace;
+    margin: 3px;
+    
+}
+td{
+    font-weight: bold;
+    color: rgb(275,56,155)
+}
+ #websitename{
+    margin-left:0px;
+    width:180px;
+    height:25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+#username{
+    margin-left:21px;
+    height:25px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+#password{
+    margin-left:31px;
+    height:25px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+button#create{
+    margin-left:150px;
+    height: 25px;
+    width: 120px;
+    background-color: orange;
+    border: 2px  orange;
+    border-radius: 8px;
+}
+.last{
+    margin-left:7px;
+}
+.new{
+    cursor: pointer;
+}
+
+@media screen and (min-width:301px) and (max-width:380px)  {
+
+    p, h2{
+        margin-left: 10px;
+    }
+    body{
+        margin-left: 6px;
+    }
+    #websitename{
+
+     margin-left:0px;
+     margin-top: 20px;
+     box-sizing: border-box;
+  
+    }
+    #username{
+    margin-left: 20px;
+    box-sizing: border-box;
+ 
+    }
+    #password{
+        margin-left: 29px;
+        box-sizing: border-box;
+    }
+    button#create{
+        margin: 20px 120px;
+        width:150px;
+    }
+    table{
+        margin:2px 1px;
+        right:1px;       
+    }
+     td{
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+}
+@media screen and (min-width:250px) and (max-width:300px)  {
+    p, h2{
+        margin-left: 15px;
+    }
+    body{
+        margin-left: 0px;
+    }
+    #websitename{
+     box-sizing: border-box;
+     margin-left: 20px;
+     margin-top: 5px;
+    }
+    #web{
+
+        margin-top: 15px;
+        margin-left: 25px;    
+    }
+    #username{
+    margin-left: 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
+ 
+    }
+    #user{
+        margin-left: 20px;
+    }
+    #pass{
+        margin-left: 25px;
+    }
+    #password{
+        margin-left: 20px;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+    button#create{
+        margin: 20px 80px;
+        width:100px;
+    }
+    table{
+        margin:2px 1px;
+        right:1px;       
+    }
+     td{
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+}
+@media screen and (min-width:381px) and (max-width:500px)  {
+    
+    p, h2{
+        margin-left: 10px;
+    }
+    body{
+        margin-left: 10px;
+    }
+    #websitename{
+
+     margin-left:0px;
+     margin-top: 20px;
+     box-sizing: border-box;
+  
+    }
+    #username{
+    margin-left: 20px;
+    box-sizing: border-box;
+ 
+    }
+    #password{
+        margin-left: 29px;
+        box-sizing: border-box;
+    }
+    button#create{
+        margin: 20px 120px;
+        width:140px;
+    }
+    table{
+        margin:2px 1px;
+        right:1px;       
+    }
+     td{
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+}
+@media screen and (min-width:501px) and (max-width:700px)  {
+    
+    p, h2{
+        margin-left: 10px;
+    }
+    body{
+        margin-left: 8px;
+    }
+    #websitename{
+
+     margin-left:0px;
+     margin-top: 20px;
+     box-sizing: border-box;
+  
+    }
+    #username{
+    margin-left: 20px;
+    box-sizing: border-box;
+ 
+    }
+    #password{
+        margin-left: 29px;
+        box-sizing: border-box;
+    }
+    button#create{
+        margin: 20px 120px;
+        width:120px;
+    }
+    table{
+        margin:2px 1px;
+        right:1px;       
+    }
+     td{
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+}
